@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirection...</title>
+    <script>
+      // Détecte la langue du navigateur
+      const browserLang = navigator.language.split('-')[0];
+      const locale = browserLang === 'fr' ? 'fr' : 'en';
+      window.location.replace('/' + locale + '/');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=/fr/" />
+      <p>Redirection vers la version française...</p>
+    </noscript>
+  </body>
+</html> 

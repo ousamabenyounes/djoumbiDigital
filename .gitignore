@@ -1,0 +1,19 @@
+.vercel
+
+# Local Netlify folder
+.netlify
+
+# Ignorer les dépendances
+node_modules/
+
+# Ignorer les fichiers de build
+.next/
+out/
+
+# Fichiers de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers système
+.DS_Store

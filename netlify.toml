@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_BASE_URL = "https://djoumbidigital.netlify.app"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/"
+  to = "/fr"
+  status = 302
+
+[[redirects]]
+  from = "/*"
+  to = "/fr/404"
+  status = 404 

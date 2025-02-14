@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://djoumbidigital.netlify.app/sitemap.xml 
